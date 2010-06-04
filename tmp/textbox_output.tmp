@@ -1,0 +1,15 @@
+datasetID taxonID scientificName kingdom LocalHomonymFlag textbox_vs_if InternalHomonymFlag
+textbox nz001 ACANTHATRIUM NA NA 0 0
+textbox nz002 ACANTHILIS NA NA 0 0
+textbox nz003 ACANTHIS NA NA 0 1
+textbox nz004 ACANTHIS NA NA 0 1
+textbox nz019 ACANTHUS NA NA 0 1
+textbox nz005 ACANTHOCAUSUS NA NA 0 0
+textbox nz006 ACANTHOCRANAUS NA NA 0 0
+textbox nz007 ACANTHOCYPRIS NA NA 0 0
+textbox nz008 ACANTHODICA NA NA 0 0
+textbox nz009 ACANTHOGRYLLUS NA NA 0 0
+textbox nz010 ACANTHOHAUSTORIUS NA NA 0 0
+textbox nz020 ACANTHUS NA NA 0 1
+textbox nz021 ACATAPAUSTUS NA NA 0 0
+textbox nz022 ACERATOCRATES NA NA 0 0

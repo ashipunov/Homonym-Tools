@@ -1,0 +1,19 @@
+﻿<homonymArchive xmlns="http://rs.tdwg.org/dwc/terms/xsd/archive/">
+      <core encoding="UTF-8" 
+            fieldsTerminatedBy="\t" 
+            linesTerminatedBy="\n" 
+            fieldsEnclosedBy='' 
+            ignoreHeaderLines="0" 
+            rowType="http://rs.tdwg.org/dwc/terms/Taxon"  
+            location="homonym_search_result.csv">
+            
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/datasetID"/>
+    <id index="1" term="http://rs.tdwg.org/dwc/terms/taxonID"/>
+    <field index="2" term="binomial"/>
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+    <field index="4" term="ExternalHomonymFlagBinomial"/>
+    <field index="4" term="InternalHomonymFlagBinomial"/>
+    <field index="5" term="ExternalHomonymFlagDiffAuthors"/>
+    <field index="6" term="InternalHomonymFlagDiffAuthors"/>
+  </core>  
+</homonymArchive>

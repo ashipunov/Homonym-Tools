@@ -1,0 +1,41 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Homonym Tools</title>
+<body>
+
+<h1 align="left"><img src="i/hb.gif">&nbsp;&nbsp;&nbsp;Homonym Tools</h1>
+
+<p>The goal is to take an input, find homonyms ([almost] the same names with different IDs) and mark them with homonym flag(s).
+
+<p>To make this, we use combination of MySQL queries, PHP forms and R scripts. Consequently, to make tools working, at least PHP > 5.0 and R > 2.7.0 (with base packages) should be installed in the system. Therefore, short installation instructions: (1) take the source from <a href="http://github.com/ashipunov/Homonym-Tools">Git Hub</a>, (2) copy them on disk following the same structure of folders, (3) install R and Apache/PHP if needed, (3) check rights (folders "tmp" and "output" should have permissions to write from all), (4) run this file (index.html).
+
+<p>Homonym processors for uninomials (names of genera and higher taxa):
+
+<ul>
+
+<li>Process user-supplied list against <a href="doc/trusted.html">trusted sources</a>
+
+<ul>
+
+<li><a href="php/textbox.php">Process</a> the list from textbox
+
+<li><a href="php/upload.php">Process</a> the uploaded file
+
+</ul>
+
+<li><a href="php/trusted.php">Determine</a> homonyms in trusted sources
+
+</ul>
+
+</ul>
+
+<p>Homonym <a href="php/ctrusted.php">processor for binomials</a> (also finds chresonyms)
+
+<p>All processors use the same sources of names. There are names from trusted sources in GNI, and standalone tables (in our case, Nomenclator Zoologicus).
+
+<p>Adding new source ia a manual process. The source could be added simply via adding its ID to GNI queries, or (this is a much more complicated way) as a standalone file. In the last case, the best way is to imitate structure of Nomenclator Zoologicus table, and then duplicate and change NZ-related lines in two places: in R scripts and in PHP files. In the first case, PHP files should be also changed because lists of choices will need modification.
+
+<p>Removing source is generally similar: remove ID from SQL queries, or remove/comment out lines in R/PHP files.
+
+</body>
+</html>

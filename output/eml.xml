@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml
+packageId="eml.1.1" system="knb"
+xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+<dataset id="homonymtools:version:1.0">
+<title>Homonym search result</title>
+<creator id="1" scope="document">
+<individualName>
+<givenName>David</givenName>
+<surName>Patterson</surName>
+</individualName>
+<electronicMailAddress>dpatterson@mbl.edu</electronicMailAddress>
+</creator>
+<creator id="2" scope="document">
+<individualName>
+<givenName>Community participants</givenName>
+<surName></surName>
+</individualName>
+</creator>
+<metadataProvider>
+<organizationName>Global Names Index</organizationName>
+</metadataProvider>
+<pubDate>2010-05-26</pubDate>
+<abstract>This is the result of homonym search from trusted sources.</abstract>
+<intellectualRights>Creative Commons: by-nc-sa</intellectualRights>
+<distribution>
+<online>
+</online>
+</distribution>
+<publisher>
+<organizationName>Global Names Index</organizationName>
+</publisher>
+</dataset>
+<additionalMetadata>
+<metadata>
+<citation>Patterson, D. J. et al., Global Names Index. </citation>
+</metadata>
+</additionalMetadata>
+</eml:eml>
