@@ -4,7 +4,7 @@
 
 <h1>Textbox processor</h1>
 
-<p>Takes the 2-column list (ID for the first column, name for the second column), find homonyms, separate them, sort all non-homonyms by name, place all homonyms to the end and supply the third column (homonym flag).
+<p>Takes the 2-column list (ID for the first column, name for the second column), find homonyms, and supply the homonym flags.
 
 <p>Example to paste:
 <br><pre>
@@ -76,7 +76,7 @@ $tmp = `cd ../r; Rscript textbox.r`;
 <hr width="30%" align="left">
 <hr width="30%" align="left">
 
-<p>The process is alsoms the same as in upload file processor. The only difference is the texbox for input instead of uploaded file.
+<p>The process is almost the same as in upload file processor. The only difference is the texbox for input instead of uploaded file.
 
 </body>
 </html>

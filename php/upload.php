@@ -4,7 +4,7 @@
 
 <h1>Uploaded file processor</h1>
 
-<p>Takes the file in given format (2-column tab separated), find homonyms, separate them, sort all non-homonyms by name, place all homonyms to the end and supply homonym flags.
+<p>Takes the file in given format (2-column tab separated), find homonyms, and supply homonym flags.
 
 <p><a href="../doc/upload_example.txt">Example</a> for upload.
 
@@ -54,7 +54,7 @@ else
 <hr width="30%" align="left">
 <hr width="30%" align="left">
 
-<p>The process is simple enough: all trusted sources are loaded as R object from disk (see documentstion for trusted sources processor), and R takes two files: uploaded file and temporary file which PHP writes to disk and which contains names of sources to compare with uploaded list. The list should be exactly in the format described above. However, it is possible to skip first column (taxon IDs) and supply only names. It is also possible to supply more than two columns. In this case, all extra columns will be ignored.
+<p>All trusted sources are loaded as R object from disk (see documentstion for trusted sources processor), and R takes two files: uploaded file and temporary file which PHP writes to disk and which contains names of sources to compare with uploaded list. The list should be exactly in the format described above. However, it is possible to skip first column (taxon IDs) and supply only names. It is also possible to supply more than two columns. In this case, all extra columns will be ignored.
 
 <p>Overall, homonym search is the same as in trusted sources processor. But results are slightly different: instead of Darwin Core archive, this is simply a temporary CSV file with the same structure as DC CSV file (see documentstion in trusted sources processor).
 
